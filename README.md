@@ -194,3 +194,7 @@ Al implementar estas estrategias se logra:
 - Mejora en la eficiencia del proceso  
 - Mayor sostenibilidad en la operación  
 - Toma de decisiones basada en datos  
+
+<p align="center">
+  <img src="Dashboard_soluble.PNG" width="700">
+</p>
