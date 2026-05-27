@@ -196,5 +196,5 @@ Al implementar estas estrategias se logra:
 - Toma de decisiones basada en datos  
 
 <p align="center">
-  <img src="Dashboard_soluble.PNG" width="700">
+  <img src="Dashboard_soluble.jpg" width="700">
 </p>
