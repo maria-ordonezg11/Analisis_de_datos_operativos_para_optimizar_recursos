@@ -401,11 +401,10 @@
         <article class="project">
           <h3 class="project-title">Movilidad urbana y productividad económica en ciudades de LATAM</h3>
           <p>
-            Este análisis busca identificar la relación entre la movilidad urbana, medida por los niveles de congestión
-            vehicular (jams_delay), y la productividad económica, representada por el PIB per cápita (city_gdp_capita),
-            en ciudades latinoamericanas durante 2024. El objetivo es detectar patrones que orienten decisiones de
-            inversión en infraestructura de transporte. Las variables seleccionadas permiten comparar eficiencia urbana
-            y desarrollo económico a nivel local.
+            En este proyecto se analizó la relación entre congestión vehicular y productividad económica en 
+            ciudades de Latinoamérica durante 2024. Mediante limpieza de datos y análisis exploratorio, se 
+            identificó que no existe una relación directa entre estas variables, permitiendo detectar 
+            oportunidades estratégicas para la inversión en infraestructura de transporte.
           </p>
 
           <div class="project-tools">
@@ -414,23 +413,25 @@
           </div>
 
           <section class="section">
-            <h2>Preguntas clave</h2>
+            <h2>Problemas a resolver</h2>
             <ul>
-              <li>¿Qué ciudades de América Latina presentan alta congestión y baja productividad económica?</li>
-              <li>¿Cuáles muestran los mejores indicadores combinados (movilidad eficiente y economía fuerte)?</li>
-              <li>¿Qué variables parecen tener una relación más fuerte con el desarrollo urbano?</li>
+              <li>Identificar ciudades con alta congestión y baja productividad económica.</li>
+              <li>Detectar ciudades con mejor desempeño combinado entre movilidad y economía.</li>
+              <li>Analizar qué variables influyen en el desarrollo urbano y eficiencia de las ciudades.</li>
             </ul>
           </section>
 
           <section class="section">
             <h2>Metodología</h2>
             <ul>
-              <li>
-                <strong>Preprocesamiento:</strong> se realizó una limpieza de datos que incluyó la conversión de nombres de columnas a formato snake_case, estandarización de unidades y corrección de formatos; se creó un dataset único y limpio a partir de dos fuentes diferentes (tomtom_traffic.csv y oecd_city_economy.csv).
-              </li>
-              <li>
-                <strong>Análisis exploratorio:</strong> los datos fueron agregados por ciudad-año y combinados mediante una unión INNER entre las tablas de tráfico (traffic) y economía (eco). Se aplicaron validaciones visuales como boxplots, histogramas y gráficos combinados para detectar distribuciones, valores extremos y posibles correlaciones.
-              </li>
+              <li><strong>Preprocesamiento:</strong></li>
+              - Limpieza y estandarización de datos<br>
+              - Conversión de variables a formato consistente<br>
+              - Integración de datasets (tráfico y economía) mediante unión INNER
+              <li><strong>Análisis:</strong></li>
+              - Agregación de datos por ciudad-año<br>
+              - Exploración de distribuciones y valores atípicos<br>
+              - Evaluación visual de posibles relaciones entre variables
             </ul>
           </section>
 
