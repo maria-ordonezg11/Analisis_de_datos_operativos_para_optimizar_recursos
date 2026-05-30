@@ -444,48 +444,64 @@
               - Ciudades con menor PIB también muestran comportamientos mixtos<br>
               👉 Esto indica que la congestión no depende únicamente del nivel económico.
              </p>
+            <h3>2. Identificación de patrones urbanos</h3>
+              Se identificaron diferentes perfiles de ciudades:<br>
+              - Alta congestión + alto PIB (alto costo de ineficiencia)<br>
+              - Baja congestión + alto PIB (mayor eficiencia urbana)<br>
+              - Baja congestión + bajo PIB (menor actividad económica)
+            </p>
 
-            <h3>Recomendaciones</h3>
-            <ul>
-              <li>Se recomienda priorizar inversión en ciudades con alta congestión (Jams Delay elevado) y PIB per cápita medio-alto, donde cada minuto ahorrado tiene mayor valor económico y social.</li>
-              <li><strong>Criterios para priorizar ciudades:</strong> alta congestión actual, PIB per cápita medio-alto, tamaño poblacional y actividad económica.</li>
-              <li><strong>Tipo de inversiones recomendadas:</strong> transporte público masivo y de calidad (metro, BRT, tren suburbano), semaforización inteligente, peajes urbanos y estrategias de teletrabajo.</li>
-              <li><strong>Enfoque de análisis de priorización:</strong> calcular para cada ciudad el costo económico anual de la congestión (horas perdidas × valor del tiempo según PIB per cápita) e incorporar indicadores de bienestar como estrés, tiempos de viaje y contaminación.</li>
-              <li>También se sugiere validar las fuentes de PIB local y ampliar el análisis con variables complementarias como densidad poblacional, inversión pública y calidad del transporte.</li>
+            <h2>Conclusión (impacto del proyecto)</h2>
+            <p>
+            El análisis demuestra que la congestión urbana no está directamente correlacionada con el nivel de 
+            desarrollo económico, lo que implica que las decisiones de inversión deben considerar múltiples 
+            variables. Esto permite orientar mejor la asignación de recursos hacia ciudades con mayor impacto potencial.
+                        
+            <h2>Recomendaciones</h2>
+            <p>
+              <li>Priorizar inversión en ciudades con alta congestión y PIB medio-alto</li>
+              <li>Implementar soluciones de transporte público masivo (metro, BRT, trenes)</li>
+              <li>Adoptar tecnologías de gestión inteligente del tráfico</li>
+              <li>Evaluar costos económicos de la congestión para priorizar intervenciones</li>
+              <li>Incorporar variables adicionales: densidad poblacional, inversión pública, calidad del transporte
             </ul>
           </section>
 
           <section class="section">
-            <h2>Análisis visual</h2>
+            <h2>Visualizaciones clave</h2>
             <p>
-              Este conjunto de visualizaciones permitió comprender la distribución y la relación entre indicadores de tráfico
-              y economía en 2024, para identificar posibles tendencias generales entre ambas variables.
-            </p>
-
-            <h3>1. Boxplot de Jams Delay</h3>
+            <h3>1. Boxplot de congestión (Jams Delay)</h3>
             <p>
-              Se creó un boxplot para observar el comportamiento de los minutos de congestión (Jams Delay)
-              mediante la media, mediana y detección de valores atípicos.
+              Análisis de distribución y detección de valores atípicos en niveles de tráfico.
             </p>
             <div class="chart">
               <img src="boxplot_jamsdelay.JPG" alt="Gráfico 5: boxplot de Jams Delay" loading="lazy" />
             </div>
 
-            <h3>2. Distribución del PIB per cápita por ciudad</h3>
+            <h3>2. Distribución del PIB per cápita</h3>
             <p>
-              Se utilizó un histograma para analizar la forma de la distribución y el valor promedio del PIB per cápita.
+              Evaluación de la dispersión y promedio económico por ciudad.
             </p>
             <div class="chart">
               <img src="pib_per_capita.JPG" alt="Gráfico 6: distribución del PIB per cápita por ciudad" loading="lazy" />
             </div>
 
-            <h3>3. Comparación: Jams Delay vs PIB per cápita por ciudad</h3>
+            <h3>3. Comparación: Congestión vs PIB</h3>
             <p>
-              El gráfico de barras compara jams_delay y city_gdp_capita por ciudad.
+              Relación visual entre ambas variables para identificar patrones urbanos.
             </p>
             <div class="chart">
               <img src="comparation.JPG" alt="Gráfico 7: comparación entre Jams Delay y PIB per cápita por ciudad" loading="lazy" />
             </div>
+
+            <p>
+              Este proyecto demuestra capacidad para:<br>
+
+              - Integrar múltiples fuentes de datos<br>
+              - Analizar relaciones complejas entre variables económicas y urbanas<br>
+              - Traducir datos en recomendaciones de política e inversión<br>
+              - Comunicar hallazgos mediante visualización efectiva
+            </p>
           </section>
         </article>
       </section>
